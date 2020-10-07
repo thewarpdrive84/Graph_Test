@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is a test MVC Core web app for adding datapoints to a local database and displaying them on a graph, using CanvasJS.
+    </p>
+</div>
+
+
+<div>
+    <a asp-controller="Points" asp-action="Create">Create</a>
+    <a asp-controller="Points" asp-action="DataFromDatabase">View Graph</a>
+</div>
